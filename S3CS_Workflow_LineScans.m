@@ -1,6 +1,6 @@
 %% Julissa Sanchez Velasquez, Elizabeth Hinde - March,2026
 %
-% S3CS_Workflow_LineScans.m - Code for performing cross-triple correlation analysis
+% S3CS_Workflow_LineScans.m - Code for performing spatial triple correlation analysis
 % Last update: 03/2026
 %______________________________________________________________________________________________________________________________________________
 %
@@ -263,3 +263,4 @@ end
 nPeakTable2      = peakTable2;
 nPeakTable2.x_pk = 10.^nPeakTable2.x_pk;
 disp(nPeakTable2);
+
